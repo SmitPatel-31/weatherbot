@@ -120,7 +120,7 @@ def error(update,context):
 
 bot = Bot(TOKEN)
 try:
-    bot.set_webhook("https://0006-43-241-194-171.ngrok.io/"+TOKEN)
+    bot.set_webhook("https://git.heroku.com/weatherbot-by-39-98.git/"+TOKEN)
 except Exception as e:
     print(e)
 
